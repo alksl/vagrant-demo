@@ -1,0 +1,13 @@
+* Virtualbox https://www.virtualbox.org/
+* Vagrant  http://www.vagrantup.com/
+
+* vagrant init
+* vagrant up
+* vagrant provision
+
+* vagrant resume
+* vagrant suspend
+
+* vagrant halt
+* vagrant destroy
+
