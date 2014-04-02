@@ -1,0 +1,33 @@
+DEPENDENCIES
+  apt
+  dotfiles
+    git: git://github.com/alksl/chef_dotfiles.git
+    revision: 5bf01ce9f8861b24c2bdf4e82eb45ef4788ee3b6
+  git
+  vim
+  zsh
+
+GRAPH
+  apt (2.3.6)
+  build-essential (2.0.0)
+  chef_handler (1.1.5)
+  dmg (2.2.0)
+  dotfiles (0.1.0)
+  git (2.9.0)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    runit (>= 1.0.0)
+    windows (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  runit (1.5.10)
+    build-essential (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  vim (1.1.2)
+  windows (1.30.0)
+    chef_handler (>= 0.0.0)
+  yum (3.1.6)
+  yum-epel (0.3.4)
+    yum (~> 3.0)
+  zsh (1.0.0)
