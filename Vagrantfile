@@ -68,16 +68,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Install swedish locale
   config.vm.provision :shell, inline: "locale-gen sv_SE.UTF-8; update-locale LANG=sv_SE.UTF-8"
 
-
   # Change shell for vagrant user
   config.vm.provision :shell, inline: "chsh -s /bin/zsh vagrant"
 
   # Install tmux
   config.vm.provision :shell, inline: "apt-get install tmux"
-
-
-
-
 
   config.vm.provision :shell, inline: "chsh -s /bin/zsh vagrant"
 end
